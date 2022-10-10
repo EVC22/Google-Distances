@@ -9,3 +9,5 @@ title: "Distance and duration calculator software"
 This python code does two things:
 1. It connects to google maps and 
 2. It calculates the distance and duration from points As to points Bs expressed as GPS coordinates (lat, long)
+
+The code requires the coder to add his own Google Maps API Key and specify a path.  
