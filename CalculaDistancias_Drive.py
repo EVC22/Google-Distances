@@ -14,17 +14,17 @@ import googlemaps
 import csv
 from datetime import datetime
 # Set the active key from the google maps API
-gmaps = googlemaps.Client(key='AIzaSyA5O-eQ7CfbiN8Xq7o2LK6gf2BXRpzMtM8')
+gmaps = googlemaps.Client(key='enter key here')
 # Set path of the input file, read it and call it "lines". This path will be
 # where the output file will be created
 
 import os
 import fileinput
-path=      'D:/Consulting/ConsultoriaMINEDU2019/Codigo Python/DistanciasD'
+path=      'enter path'
 index= 1
 for root, dirs, files in os.walk(path):
    for fname in files:
-       fp ='D:/Consulting/ConsultoriaMINEDU2019/Codigo Python/DistanciasD/{fname}'.format(fname=fname)
+       fp ='D:{fname}'.format(fname=fname)
        lines = open(fp).read().splitlines()
        # Create parameter of time and array for output storing
        now = datetime.now()
