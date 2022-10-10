@@ -4,7 +4,7 @@ authors:
 - family-names: "Vergara Cobos"
   given-names: "Estefania"
   url: "https://github.com/EVC22/Google-Distances/"
-title: "Google distances calculator"
+title: "Distance and duration calculator software"
 
 This python code does two things:
 1. It connects to google maps and 
